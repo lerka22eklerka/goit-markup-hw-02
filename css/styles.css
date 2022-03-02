@@ -7,10 +7,9 @@ body {
     font-weight: 700;
     color: #212121;
     text-decoration: none;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 .logo-span {
@@ -25,16 +24,15 @@ body {
 }
 
 
-.nav-link {
+.nav-studio, .nav-link, .nav-link, .nav-portfolio {
     text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #212121;
 }
-.nav-link:hover, .nav-link:focus {
+.nav-studio, .nav-portfolio {
     color: #2196F3;
 }
 
@@ -45,23 +43,22 @@ body {
 .contacts-link {
     text-decoration: none;
     color: #757575;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
+}
+.contacts-link:hover {
+    color: #2196F3;
 }
 
 .part-one {
     background-color: #2F303A;
 }
 .one-text {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 136%;
+    line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -70,11 +67,10 @@ body {
 
 .one-button {
     background-color: #2196F3;
-    font-family: Roboto;
-    font-style: normal;
+    font-family: inherit;
     font-weight: bold;
     font-size: 16px;
-    line-height: 187%;
+    line-height: 1.9;
     display: flex;
     align-items: center;
     text-align: center;
@@ -87,31 +83,24 @@ body {
 }
 
 .two-title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 .two-content {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
 .three-title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -122,11 +111,9 @@ body {
 }
 
 .four-title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -136,21 +123,16 @@ body {
 }
 
 .title-name {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .title-prof {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
@@ -160,15 +142,11 @@ body {
     background-color: #2F303A;
 }
 
-.address-link {
-    text-decoration: none;
-    font-family: Roboto;
+.address {
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.7;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
 }
 
 .address-list {
@@ -176,29 +154,23 @@ body {
 }
 .address-maps {
     text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
+.address-link {
+    text-decoration: none;
+    color: #ffffff99;
+}
 .title-project {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 200%;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
 .title-item {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 187%;
+    line-height: 1.9;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -206,13 +178,14 @@ body {
     list-style: none;
 }
 
+.button-list {
+    list-style: none;
+}
 .project-button {
-    display: flex;
-    font-family: Roboto;
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
 }
